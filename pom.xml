@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.yvasyliev</groupId>
-    <artifactId>TelegramProfilePhotoUpdater</artifactId>
+    <artifactId>TelegramProfilePhotoCalendar</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
