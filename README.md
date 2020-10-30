@@ -3,7 +3,7 @@
 A Telegram client that turns your profile photo into a calendar.
 
 ## Dependencies
-This project uses [TDLight](https://github.com/tdlight-team/tdlight) as implementation of Telegram Client API.
+This project uses [TDLight Java](https://github.com/tdlight-team/tdlight-java) as implementation of Telegram Client API.
 
 ## Requirements
 1. JDK 8 (or higher)
