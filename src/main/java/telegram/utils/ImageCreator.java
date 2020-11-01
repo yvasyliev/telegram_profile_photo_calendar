@@ -1,7 +1,10 @@
 package telegram.utils;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 import java.awt.font.TextLayout;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -70,7 +73,7 @@ public class ImageCreator {
     }
 
     private String getDay() {
-        return String.valueOf(LocalDate.now().getDayOfMonth());
+        return LocalDate.now().format(DateTimeFormatter.ofPattern("dd"));
     }
 
     private String getMonth() {
